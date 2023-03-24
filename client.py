@@ -11,7 +11,7 @@ def FECModel():
         tf.keras.layers.Dense(32, activation='relu'),
         tf.keras.layers.Dense(1, activation='sigmoid')
     ])
-    model.load_weights('fec_model.h5')  # Load the trained weights from a file
+    # model.load_weights('fec_model.h5')  # Load the trained weights from a file
     return model
 
 # Define the optimizer
